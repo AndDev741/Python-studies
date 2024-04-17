@@ -11,8 +11,6 @@ def polygon(turtle, length, n):
 def circle(turtle, raio):
     turtle.circle(raio)
 
-    
-
 bob = turtle.Turtle()
 circle(bob, 120)
 turtle.mainloop()

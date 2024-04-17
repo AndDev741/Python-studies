@@ -3,6 +3,6 @@ def countdown(n):
         print("The countdown is over")
     else:
         print(n)
-        countdown(n-1)
+        countdown(n)
 
 countdown(10)

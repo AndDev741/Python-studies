@@ -1,9 +1,7 @@
-def is_palindrome(word):
-    check = word[::-1]
-    if  check == word : return True
-    else:
-        return False
-    
+def any_lowercase5(s):
+    for c in s:
+        if not c.islower():
+            return False
+    return True
 
-print(is_palindrome('radar'))
-        
+print(any_lowercase5('banaAa'))
